@@ -1,0 +1,22 @@
+{
+	"cookie_sticky_footer": {
+		"text_1": "By continuing to browse or by clicking “Accept All Cookies,” you agree to the storing of first- and third-party cookies on your device to enhance site navigation and analyze site usage.",
+		"text_2": "Cookie Settings",
+		"text_3": "Accept all cookies"
+	},
+	"cookie_modal": {
+		"text_1": "Your Privacy",
+		"text_2": "Strictly Necessary Cookies",
+		"text_3": "Performance Cookies",
+		"text_4": "Cookies funcionais",
+		"text_5": "This website uses Temporary Cookies to maximize the security of your services and to ensure the optimum delivery of online services.<br><br>Cookies are files that contain small pieces of information that are downloaded by your device when you visit a website. The use of Cookies on the Internet is usual and does not harm the computers of users. Cookies perform a number of functions, such as helping webmasters understand how it is used, facilitating browsing, preserving your preferences, and generally improving your user experience.",
+		"text_6": "This website does not use cookies for:",
+		"text_7": "Store information that allows your personal identification;",
+		"text_8": "Track your navigation after you have abandoned one of our sites;",
+		"text_9": "Use without consent data stored in Cookies in cases where the prior obtaining of such consent is required.",
+		"text_10": "They are Cookies, which protect and facilitate the use of websites, the “shopping carts“ or “e-billing“. These cookies are not useful for identifying the pages of a website. In the case of Cookies strictly necessary for the purpose of expressly requested services by the user, this category of cookies can not be discarded or declined.",
+		"text_11": "Performance cookies collect information about the users' experience on the website, such as which pages are visited most frequently or receive error messages. These Cookies do not collect information that identifies you. All the information gathered by this type of Cookies is totally anonymous and serves only the function of optimizing the navigation in the site. They are not intended to provide targeted marketing campaigns. Performance Cookies are only meant to allow for website improvements and performance.",
+		"text_12": "These cookies allow the website to recall information about the choices made by the user, such as the username, language, region from which they access the site, and allow the user to customize their experience of using the site. These Cookies are also used to remember the changes that you have made in the configuration of the website, namely the type and font size, colors, and information provision on the pages. They may also serve to provide a given function, for example, the display of a video. Cookies are not part of this concept for the purpose of providing targeted marketing campaigns. The information collected is anonymous and does not allow you to track your route on other websites.",
+		"text_13": "Accept"
+	}
+}

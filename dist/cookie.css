@@ -1,0 +1,377 @@
+@import url(https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700,800,900);
+@import url(../fonts/icons/style.css);
+a,
+button {
+    -moz-transition: all .25s ease-out;
+    -webkit-transition: all .25s ease-out;
+    -i-transition: all .25s ease-out
+}
+
+[class*=" icon-"],
+[class^=icon-] {
+    font-family: icomoon!important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.cookies-button {
+    display: table;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000;
+    padding: 4px 0;
+    margin: 0 16px;
+    border-bottom: 2px solid transparent
+}
+
+.cookies-button div,
+.cookies-button p,
+.cookies-bar-holder .cookies-actions a,
+.cookies-bar-holder>div {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.cookies-button.cookies-button-blue {
+    color: #007e9c
+}
+
+.cookies-button.cookies-button-blue.active,
+.cookies-button.cookies-button-blue:hover {
+    border-color: #007e9c
+}
+
+.cookies-button.cookies-button-blue-all {
+    border: 2px solid #007e9c;
+    background-color: #007e9c
+}
+
+.cookies-button.cookies-button-blue-all,
+.cookies-button.cookies-button-pink-all {
+    padding: 8px 14px;
+    color: #fff
+}
+
+.cookies-button.cookies-button-blue-all.active,
+.cookies-button.cookies-button-blue-all:hover {
+    color: #007e9c
+}
+
+.cookies-button.cookies-button-blue-all.active,
+.cookies-button.cookies-button-blue-all:hover,
+.cookies-button.cookies-button-pink-all.active,
+.cookies-button.cookies-button-pink-all:hover {
+    background-color: transparent
+}
+
+.cookies-button div {
+    margin-right: 8px
+}
+
+.cookies-button p {
+    margin-bottom: 0!important;
+    margin-top: 0!important
+}
+
+.cookies-bar-holder {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #d0d1d0;
+    box-sizing: border-box;
+    z-index: 100000000;
+}
+
+.cookies-bar-holder .cookies-bar-message {
+    width: calc(100% - 350px)
+}
+
+.cookies-bar-holder .cookies-actions {
+    width: 340px;
+    text-align: right
+}
+
+.cookies-bar-holder .cookies-bar-message p {
+    line-height: 1.4;
+    font-family: Exo, sans-serif
+}
+
+.cookies-bar-holder .cookies-actions p,
+.cookies-bar-holder .cookies-bar-message p {
+    font-size: 12px
+}
+
+.cookies-bar-holder .cookies-actions a {
+    margin: 0 2px;
+    font-family: Exo, sans-serif
+}
+
+.cookies-bar-holder .cookies-actions a:last-of-type {
+    margin-left: 24px
+}
+
+.cookie-modal-overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .5);
+    display: none;
+    opacity: 0;
+    z-index: 1000000000;
+}
+
+.cookie-modal-overlay .cookie-modal {
+    position: fixed;
+    top: 20px!important;
+    left: 0;
+    right: 0;
+    padding: 0;
+    max-width: 600px;
+    max-height: 90%;
+    width: 90%;
+    margin: auto;
+    transform: scaleX(0);
+    opacity: 0;
+    display: none;
+    transition: all .1s
+}
+
+.cookie-modal-overlay .cookie-modal .cookie-modal-inner {
+    background-color: #fff
+}
+
+.cookie-modal-overlay .cookie-modal .cookie-modal-inner .cookie-modal-header {
+    text-align: left;
+    padding: 20px 20px 16px
+}
+
+.cookie-modal-overlay .cookie-modal .cookie-modal-inner .cookie-modal-header .cookie-modal-logo {
+    padding-bottom: 16px;
+    border-bottom: 1px solid #d0d1d0
+}
+
+.cookie-modal-overlay .cookie-modal .cookie-modal-inner .cookie-modal-header .cookie-modal-logo img {
+    max-height: 51px
+}
+
+.cookie-modal-overlay .cookie-modal .cookie-modal-inner .cookie-modal-header .cookie-modal-close {
+    position: absolute;
+    top: 28px;
+    right: 37px;
+    z-index: 9999;
+    cursor: pointer;
+    text-decoration: none
+}
+
+.cookie-modal-overlay .cookie-modal .cookie-modal-inner .cookie-modal-header .cookie-modal-close .icon-close {
+    font-size: 16px;
+    color: #000
+}
+
+.cookie-modal-overlay .cookie-modal .cookie-modal-inner .cookie-modal-header .cookie-modal-close .icon-close:before {
+    content: "\ea0f"
+}
+
+.cookie-modal-overlay .cookie-modal .cookie-modal-inner .cookie-modal-content {
+    height: 100%;
+    padding: 10px 20px 20px
+}
+
+.cookie-modal-overlay .cookie-modal .cookie-modal-inner .cookie-modal-content .cookie-modal-content-col {
+    display: inline-block;
+    vertical-align: top
+}
+
+.cookie-modal-overlay .cookie-modal .cookie-modal-inner .cookie-modal-content .cookie-modal-content-col:first-child {
+    width: 165px;
+    text-align: left
+}
+
+.cookie-modal-overlay .cookie-modal .cookie-modal-inner .cookie-modal-content .cookie-modal-content-col:first-child a {
+    display: table;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.2;
+    color: #6d6d6d;
+    padding: 3px 0;
+    margin: 7px;
+    border-bottom: 2px solid transparent;
+    -moz-transition: all .25s ease-out;
+    -webkit-transition: all .25s ease-out;
+    -i-transition: all .25s ease-out;
+    font-family: Exo, sans-serif;
+    text-decoration: none
+}
+
+.cookie-modal-overlay .cookie-modal .cookie-modal-inner .cookie-modal-content .cookie-modal-content-col:first-child a.active {
+    color: #000;
+    border-color: #007e9c
+}
+
+.cookie-modal-overlay .cookie-modal .cookie-modal-inner .cookie-modal-content .cookie-modal-content-col:last-child {
+    width: calc(100% - 175px)
+}
+
+.cookie-modal-overlay .cookie-modal .cookie-modal-inner .cookie-modal-content .cookie-modal-content-col .cookie-modal-content-section {
+    text-align: left;
+    margin: 10px;
+    min-height: 220px;
+    overflow-y: auto;
+    max-height: calc(100vh - 330px)
+}
+
+.cookie-modal-overlay .cookie-modal .cookie-modal-inner .cookie-modal-content .cookie-modal-content-col .cookie-modal-content-section:not(.active) {
+    display: none
+}
+
+.cookie-modal-overlay .cookie-modal .cookie-modal-inner .cookie-modal-content .cookie-modal-content-col .cookie-modal-content-section .cookie-modal-content-section-header p {
+    font-weight: 700;
+    font-size: 17px;
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-family: Exo, sans-serif
+}
+
+.cookie-modal-overlay .cookie-modal .cookie-modal-inner .cookie-modal-content .cookie-modal-content-col .cookie-modal-content-section .cookie-modal-content-section-text {
+    font-size: 14px;
+    line-height: 1.3;
+    font-family: Exo, sans-serif
+}
+
+.cookie-modal-overlay .cookie-modal .cookie-modal-inner .cookie-modal-content .cookie-modal-content-col .cookie-modal-content-section .cookie-modal-content-section-text p {
+    margin-top: 0
+}
+
+.cookie-modal-overlay .cookie-modal .cookie-modal-inner .cookie-modal-content .cookie-modal-content-col .cookie-modal-content-section .cookie-modal-content-section-text .cookie-modal-content-section-acceptance-list .cookie-modal-content-section-acceptance-ltitle {
+    font-weight: 700;
+    margin-top: 20px
+}
+
+.cookie-modal-overlay .cookie-modal .cookie-modal-inner .cookie-modal-content .cookie-modal-content-col .cookie-modal-content-section .cookie-modal-content-section-text .cookie-modal-content-section-acceptance-list ul {
+    padding: 2px 0;
+    list-style: none
+}
+
+.cookie-modal-overlay .cookie-modal .cookie-modal-inner .cookie-modal-content .cookie-modal-content-col .cookie-modal-content-section .cookie-modal-content-section-text .cookie-modal-content-section-acceptance-list ul li {
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-family: Exo, sans-serif
+}
+
+.cookie-modal-overlay .cookie-modal .cookie-modal-inner .cookie-modal-content .cookie-modal-content-col .cookie-modal-content-section .cookie-modal-content-section-text .cookie-modal-content-section-acceptance-list ul li:before {
+    font-size: 20px;
+    content: "\e90c";
+    display: inline-block;
+    vertical-align: middle;
+    font-family: icomoon!important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #007e9c;
+    margin-right: 6px
+}
+
+.cookie-modal-overlay .cookie-modal .cookie-modal-inner .cookie-modal-footer {
+    position: relative;
+    padding: 10px 20px;
+    background: #fff;
+    border-top: 1px solid #d0d1d0
+}
+
+.cookie-modal-overlay .cookie-modal .cookie-modal-inner .cookie-modal-footer .cookie-modal-footer-items .cookie-modal-footer-item {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.cookie-modal-overlay .cookie-modal .cookie-modal-inner .cookie-modal-footer .cookie-modal-footer-items .cookie-modal-footer-item:first-of-type {
+    width: 70%
+}
+
+.cookie-modal-overlay .cookie-modal .cookie-modal-inner .cookie-modal-footer .cookie-modal-footer-items .cookie-modal-footer-item:last-of-type {
+    width: 30%;
+    margin-left: -6px
+}
+
+.cookie-modal-overlay .cookie-modal .cookie-modal-inner .cookie-modal-footer .cookie-modal-footer-items .cookie-modal-footer-item:first-of-type p {
+    font-size: 15px;
+    font-family: Exo, sans-serif;
+    line-height: 1
+}
+
+.cookie-modal-overlay .cookie-modal .cookie-modal-inner .cookie-modal-footer .cookie-modal-footer-items .cookie-modal-footer-item .cookies-button {
+    margin: initial
+}
+
+.cookie-modal-overlay .cookie-modal .cookie-modal-inner .cookie-modal-footer .cookie-modal-footer-items .cookie-modal-footer-item p a {
+    display: table;
+    margin: 0;
+    font-size: 14px;
+    font-family: Exo, sans-serif;
+    text-decoration: none
+}
+
+.cookie-modal-overlay .cookie-modal .cookie-modal-inner .cookie-modal-footer .cookie-modal-footer-items .cookie-modal-footer-item:last-of-type a {
+    float: right;
+    margin: initial;
+    font-family: Exo, sans-serif;
+    text-decoration: none
+}
+
+@media only screen and (max-width:760px) {
+    .cookies-bar-holder .cookies-bar-message {
+        display: block;
+        width: 100%!important;
+        text-align: center!important
+    }
+}
+
+@media only screen and (max-width:560px) {
+    .cookie-modal-overlay .cookie-modal .cookie-modal-inner .cookie-modal-content .cookie-modal-content-col:first-child {
+        width: 100%!important;
+        border-bottom: 1px solid #d0d1d0
+    }
+    .cookie-modal-overlay .cookie-modal .cookie-modal-inner .cookie-modal-content .cookie-modal-content-col:last-child {
+        width: 100%!important
+    }
+    .cookie-modal-overlay .cookie-modal .cookie-modal-inner .cookie-modal-content .cookie-modal-content-col .cookie-modal-content-section {
+        min-height: initial;
+        max-height: initial;
+        overflow-y: auto;
+        margin: 20px 10px 0
+    }
+    .cookie-modal-overlay .cookie-modal .cookie-modal-inner .cookie-modal-content {
+        max-height: 50vh;
+        overflow-y: scroll;
+        padding: 0 10px 10px
+    }
+    .cookie-modal-overlay .cookie-modal .cookie-modal-inner .cookie-modal-header .cookie-modal-logo img {
+        max-width: 250px
+    }
+    .cookie-modal-overlay .cookie-modal .cookie-modal-inner .cookie-modal-header .cookie-modal-logo {
+        padding: 14px 0 10px
+    }
+    .cookie-modal-overlay .cookie-modal .cookie-modal-inner .cookie-modal-footer,
+    .cookie-modal-overlay .cookie-modal .cookie-modal-inner .cookie-modal-header {
+        padding: 10px
+    }
+    .cookie-modal-overlay .cookie-modal .cookie-modal-inner .cookie-modal-header .cookie-modal-close {
+        top: 26px;
+        right: 26px
+    }
+}

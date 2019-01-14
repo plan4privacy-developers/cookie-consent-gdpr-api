@@ -1,0 +1,23 @@
+{
+	"cookie_sticky_footer": {
+		"text_1": "Ao continuar a navegar ou ao clicar em “Aceitar todos os cookies”, concorda com o armazenamento de cookies no seu dispositivo para aprimorar a navegação no site, melhorar o desempenho e a sua experiência como utilizador.",
+		"text_2": "Definições Cookies",
+		"text_3": "Aceitar todos os cookies"
+	},
+	"cookie_modal": {
+		"text_1": "A sua privacidade",
+		"text_2": "Cookies estritamente necessárias",
+		"text_3": "Cookies de performance",
+		"text_4": "Cookies funcionais",
+		"text_5": "A Plan4Privacy utiliza Cookies temporários para maximizar a segurança dos seus serviços e para assegurar a prestação otimizada dos serviços online.<br><br>Cookies são ficheiros que contêm pequenas porções de informação que é descarregada pelo seu dispositivo quando visita um website. A utilização de Cookies na internet é usual e em nada prejudica os computadores dos utilizadores. Os Cookies executam diversas funções, nomeadamente auxiliar os responsáveis do website a perceber o modo como este é utilizado, facilitando a respetiva navegação, guardando as suas preferências e, de modo geral, melhorando a sua experiência de utilização.",
+		"text_6": "Não utilizamos Cookies para:",
+		"text_7": "Armazenar informação que permita a sua identificação pessoal;",
+		"text_8": "Rastrear a sua navegação depois de ter abandonado um dos nossos sites;",
+		"text_9": "Utilizar sem consentimento dados armazenados em Cookies nos casos em que a obtenção prévia desse consentimento seja exigida.",
+		"text_10": "São Cookies essenciais porque garantem a navegação no site e a utilização das respetivas funcionalidades, tais como aceder a áreas seguras de websites, a “carrinhos de compras” ou a “e-billing”. Estes Cookies não recolhem informação sobre o utilizador que possa ser utilizada para fins de marketing ou de identificar as visitas do utilizador a websites. Tratando-se de Cookies estritamente necessários para o efeito de fornecer os serviços expressamente solicitados pelo utilizador, esta categoria de Cookies ao contrário das demais não poderá ser descativada ou declinada.",
+		"text_11": "As Cookies de performance recolhem informação sobre a experiência dos utilizadores no website, como por exemplo, quais as páginas visitadas com maior frequência ou receção de mensagens de erro. Estes Cookies não recolhem informação que identifique o utilizador. Toda a informação recolhida por este tipo de Cookies é totalmente anónima e serve apenas a função de otimizar a navegação no site. Não têm como objetivo a disponibilização de campanhas de marketing dirigidas. As Cookies de performance destinam-se somente a permitir melhorias do website e respetivo desempenho.",
+		"text_12": "Estas Cookies permitem ao website recordar informação sobre as escolhas feitas pelo utilizador, tais como o username, o idioma, a região de onde acede ao site, e permitem ao utilizador personalizar a sua experiência de utilização do site. Estes Cookies são também utilizados para recordar as alterações que tenha efetuado na configuração do website, nomeadamente, o tipo e tamanho de letra, cores, e disposição de informação nas páginas. Poderão ainda servir para a prestação de uma dada função, por exemplo, a exibição de um vídeo. Não integram este conceito os Cookies que tenham como objetivo a disponibilização de campanhas de marketing dirigidas. A informação recolhida é anónima e não possibilita rastrear o seu percurso noutros websites.",
+		"text_13": "Aceitar"
+
+	}
+}

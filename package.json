@@ -1,0 +1,17 @@
+{
+  "name": "cookie-consent-gdpr-api",
+  "version": "1.0.9",
+  "description": "Get your website’s usage of cookies compliant with the European GDPR mandatory rules.",
+  "main": "dist/cookie.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gdpr",
+    "cookie-consent",
+    "privacy",
+    "Plan4Privacy"
+  ],
+  "author": "Plan4Privacy developers",
+  "license": "ISC"
+}
