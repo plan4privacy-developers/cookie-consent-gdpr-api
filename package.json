@@ -1,6 +1,6 @@
 {
   "name": "cookie-consent-gdpr-api",
-  "version": "1.0.9",
+  "version": "1.1.2",
   "description": "Get your website’s usage of cookies compliant with the European GDPR mandatory rules.",
   "main": "dist/cookie.min.js",
   "scripts": {
@@ -13,5 +13,13 @@
     "Plan4Privacy"
   ],
   "author": "Plan4Privacy developers",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plan4privacy-developers/cookie-consent-gdpr-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/plan4privacy-developers/cookie-consent-gdpr-api/issues"
+  },
+  "homepage": "https://github.com/plan4privacy-developers/cookie-consent-gdpr-api#readme"
 }

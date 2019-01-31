@@ -149,6 +149,7 @@ function initializeCookies(cookie_data){
 
 					var a = document.createElement("a");
 					a.setAttribute("href", "javascript:");
+					a.setAttribute("onclick", "acceptAllCookies()");
 					a.classList.add("cookies-bar-holder-accept-button", "cookies-button", "cookies-button-blue-all");
 
 					var p = document.createElement("p");
